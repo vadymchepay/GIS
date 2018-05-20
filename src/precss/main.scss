@@ -1,0 +1,31 @@
+//Base styles
+
+@import 'normalize';
+@import 'fonts';
+@import 'variables';
+@import 'base';
+
+//Elements
+@import 'elements/color-variables';
+@import 'elements/color-classes';
+@import 'elements/variables';
+@import 'elements/global';
+@import 'elements/navbar';
+@import 'elements/sidenav';
+@import 'elements/waves';
+
+//@import 'elements/preloader';
+
+//Sections
+
+@import 'sections/header';
+@import 'sections/preferences';
+@import 'sections/donors';
+@import 'sections/changes';
+@import 'sections/donate';
+@import 'sections/footer';
+
+//Media
+
+//@import 'media';
+

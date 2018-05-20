@@ -1,0 +1,53 @@
+.preferences {
+    padding-top: 66px;
+}
+
+.preferences_items {
+    padding-bottom: 60px;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.3);
+}
+
+.section_heading {
+    max-width: 628px;
+    color: $MainFontColor;
+    font-family: Merriweather;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31px;
+    margin-bottom: 52px;
+    span {
+        font-size: 28px;
+        font-weight: 700;
+    }
+}
+
+.preferecse_item {
+    width: 265px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    .item_icon {
+        color: $MainGreen;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 21px;
+        text-transform: uppercase;
+        margin-bottom: 22px;
+    }
+    .item_heading {
+        font-family: Montserrat;
+        color: $MainGreen;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    .item_text {
+        color: $MainFontColor;
+        font-family: Merriweather;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+}

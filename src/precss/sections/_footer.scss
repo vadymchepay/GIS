@@ -1,0 +1,116 @@
+.footer {
+    background-color: $MainFooter;
+    padding-top: 56px;
+    padding-bottom: 70px;
+}
+
+.left_column {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    .mission {
+        margin-bottom: 20px;
+    }
+    .hub {
+        margin-bottom: 20px;
+        span {
+            text-decoration: underline;
+            a {
+                color: #fff;
+                &:hover {
+                    color: $MainBlue;
+                }
+            }
+        }
+    }
+    .mailing_list {
+        margin-bottom: 29px;
+        span {
+            display: block;
+            font-size: 9px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+    }
+
+}
+
+.footer_menu {
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    .fotter_heading {
+        font-size: 9px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    ul {
+        li {
+            a {
+                color: #fff;
+                &:hover {
+                    color: $MainBlue;
+                }
+            }
+        }
+    }
+}
+
+.sing_up_from {
+    margin-bottom: 40px;
+    input {
+        width: 190px;
+        height: 53px;
+        box-sizing: border-box;
+        padding: 20px 0;
+        padding-left: 20px;
+        float: left;
+    }
+    .sing_up_btn {
+        width: 75px;
+        height: 53px;
+        background-color: #000;
+        border: 0;
+        border-radius: 0;
+        font-family: 'Montserrat';
+        font-size: 9px;
+        font-weight: 700;
+        line-height: 53px;
+        letter-spacing: 1px;
+
+    }
+}
+
+.social {
+    max-width: 360px;
+    min-height: 73px;
+    box-sizing: border-box;
+    color: #fff;
+    transform: translateY(-20px);
+    span {
+        display: block;
+        font-family: 'Montserrat';
+        font-size: 9px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    .social_icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-size: 37px;
+        font-weight: 400;
+        a {
+            color: #fff;
+            &:hover {
+                color: $MainBlue;
+            }
+        }
+    }
+}

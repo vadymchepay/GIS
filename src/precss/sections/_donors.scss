@@ -1,0 +1,82 @@
+.donors {
+    padding-top: 68px;
+}
+
+.donors_heading {
+    text-align: center;
+    color: $MainFontColor;
+    font-family: 'Merriweather';
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+
+.heading_text {
+    text-align: center;
+    color: $MainFontColor;
+    font-family: 'Merriweather';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 48px;
+}
+
+.donor_items {
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.3);
+    .donor_item {
+        width: 265px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        .item_descr {
+            width: 265px;
+            height: 265px;
+            background-color: $MainBlue;
+            color: #fff;
+            padding: 52px 30px;
+            box-sizing: border-box;
+            font-family: 'Merriweather';
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 18px;
+            position: relative;
+            &::after {
+                content: '';
+                display: block;
+                width: 24px;
+                height: 24px;
+                background-color: $MainBlue;
+                transform: translate(-50%, 46%) rotate(119deg) skewX(-30deg);
+                position: absolute;
+                z-index: 2;
+                left: 50%;
+                bottom: 0;
+
+            }
+        }
+        .donor_person {
+            width: 265px;
+            padding: 34px 45px 29px;
+            background-color: #f2eee9;
+            display: flex;
+
+        }
+        .donor_person_icon {
+            color: $MainFontColor;
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 21px;
+            margin-right: 5px;
+        }
+        .donor_person_name {
+            color: $MainFontColor;
+            font-family: 'Montserrat';
+            font-size: 12px;
+            font-weight: 700;
+            span {
+                display: block;
+                font-weight: 400;
+            }
+        }
+    }
+}
