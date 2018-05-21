@@ -25,12 +25,12 @@
     padding-bottom: 50px;
     border-bottom: 1px solid rgba(51, 51, 51, 0.3);
     .donor_item {
-        width: 265px;
+        max-width: 265px;
         margin: 0 auto;
         margin-bottom: 20px;
         .item_descr {
-            width: 265px;
-            height: 265px;
+            max-width: 265px;
+            min-height: 265px;
             background-color: $MainBlue;
             color: #fff;
             padding: 52px 30px;
@@ -55,7 +55,7 @@
             }
         }
         .donor_person {
-            width: 265px;
+            max-width: 265px;
             padding: 34px 45px 29px;
             background-color: #f2eee9;
             display: flex;

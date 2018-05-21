@@ -1,11 +1,8 @@
-//Base styles
-
+//Normalize
 @import 'normalize';
-@import 'fonts';
-@import 'variables';
-@import 'base';
 
-//Elements
+
+//Materialize Elements
 @import 'elements/color-variables';
 @import 'elements/color-classes';
 @import 'elements/variables';
@@ -14,7 +11,11 @@
 @import 'elements/sidenav';
 @import 'elements/waves';
 
-//@import 'elements/preloader';
+//Base styles
+
+@import 'fonts';
+@import 'variables';
+@import 'base';
 
 //Sections
 
@@ -25,7 +26,6 @@
 @import 'sections/donate';
 @import 'sections/footer';
 
-//Media
 
-//@import 'media';
+
 

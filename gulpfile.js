@@ -94,7 +94,9 @@ gulp.task('buildCss', function () {
             cascade: false
         }))
         .pipe(gcmq())
-        .pipe(cleanCss())
+        .pipe(cleanCss({
+        level: 2
+    }))
         //        .pipe(rename({
         //            suffix: '.min'
         //        }))
